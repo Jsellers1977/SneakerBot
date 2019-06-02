@@ -7,7 +7,7 @@ const co = require('cheerio')
 const config = require('config');
 const send = require('./send')
 
-console.log('🕵🏠 Initiating Pad-Patrol...')
+console.log('🕵🏠 Initiating Sneaker Bot...')
 
 function generateApartmentString(url) {
   rp(url)
